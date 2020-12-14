@@ -144,22 +144,28 @@ p.description{
   color: rgb(255, 255, 255, 0.92);
 }
 
+.textreviews h1{
+color: #ffffffb7;
+}
+
 .collectie-en-reviews{
   background-color: rgba(20, 20, 20, 0.795);
 }
 
 .flex-container {
   display: flex;
-  flex-wrap: nowrap;
+  height: 200px;
+  align-items: center;
   background-color: rgb(0, 0, 0);
+   justify-content: center;
 }
 
 .flex-container > div {
-  background-color: #f1f1f1;
+  background-color: #f1f1f1d3;
   width: 100px;
-  height: auto;
   margin: 10px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
+  border-radius: 15px;
 }
